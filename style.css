@@ -77,3 +77,22 @@ body {
     font-size: 14px;
     color: #999;
 }
+@keyframes slap {
+    0%   { transform: rotate(-20deg) scale(1); }
+    25%  { transform: rotate(0deg) scale(1.2); }
+    50%  { transform: rotate(15deg) scale(0.9); }
+    100% { transform: rotate(-20deg) scale(1); }
+}
+
+.shoe-seal {
+    position: absolute;
+    width: 80px;
+    top: -10px;
+    right: -20px;
+    transform: rotate(-20deg);
+    transition: transform 0.3s ease;
+}
+
+.slap {
+    animation: slap 0.4s ease;
+}
