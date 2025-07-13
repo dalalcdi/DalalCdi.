@@ -1,0 +1,79 @@
+body {
+    font-family: 'Kalpurush', sans-serif;
+    background-color: #fff2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #222;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.main-image img {
+    width: 180px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.shoe-seal {
+    position: absolute;
+    width: 80px;
+    margin-left: -50px;
+    margin-top: -30px;
+    transform: rotate(-20deg);
+}
+
+.main-text {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.counter-display {
+    font-size: 60px;
+    margin: 20px;
+    color: crimson;
+    font-weight: bold;
+}
+
+.count-button {
+    font-size: 22px;
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.count-button:hover {
+    background-color: darkred;
+}
+
+.highlight-result {
+    font-size: 20px;
+    margin-top: 25px;
+    color: #222;
+}
+
+.result-number {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.stat-content {
+    margin-top: 30px;
+    font-style: italic;
+    color: #555;
+}
+
+.site-footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #999;
+}
